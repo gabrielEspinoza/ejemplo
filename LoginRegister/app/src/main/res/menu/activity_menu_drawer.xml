@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cardio"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Ritmo Cardiaco" />
+        <item
+            android:id="@+id/nav_presion"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Presión Arterial" />
+        <item
+            android:id="@+id/nav_tratamiento"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Ingreso Tratamiento" />
+        <item
+            android:id="@+id/nav_dieta"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Mi dieta" />
+        <item
+            android:id="@+id/na_tips"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Tips nutricionales" />
+        <item
+            android:id="@+id/nav_agenda"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Agenda de Emergencias" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Configuración" />
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Chat"/>
+    </group>
+
+    <item android:title="Comunicación">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>
